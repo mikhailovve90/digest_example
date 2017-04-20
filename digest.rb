@@ -15,7 +15,7 @@ elsif(vibor == 2)
   sha1 = Digest::SHA1.hexdigest(slv)#шифрование в sha1 фразы введённой ранее
   puts "Сообщение " + sha1
 else
-  puts "Вы ввели неверный тип шифрования"
+  puts "Вы ввели недопустимое значение"
 end
 
 
